@@ -14,8 +14,8 @@ int main(){
 	cin >> choice;
 	
 		if (choice == 1){
-			int V1;
-			int V2;
+			double V1;
+			double V2;
 			
 				cout << "You have choosen addition" << endl;
 				cout << "Enter your first value : ";
@@ -27,8 +27,8 @@ int main(){
 		}
 	
 		else if (choice == 2){
-			int M;
-			int N;
+			double M;
+			double N;
 			
 				cout << "You have choosen exponential" << endl;
 				cout << "Enter the number that you want to raise : ";
@@ -39,7 +39,7 @@ int main(){
 		}
 		
 		else if (choice == 3){
-			int Value;
+			double Value;
 				
 				cout << "You have choosen squared roots" << endl;
 				cout << "Enter the value that you want to find the squared roots : ";
